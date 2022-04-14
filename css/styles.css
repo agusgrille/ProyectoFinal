@@ -420,9 +420,9 @@ iframe {
   width: 100%;
   height: 100%;
   border: none; 
-  
+
 /* grid index*/
-body {
+body{
   margin: 20px;
 }
 
@@ -579,7 +579,7 @@ body {
     flex-direction: column 2 row 4;
 
 }
-/*
+
   .productosGrid {
     display: grid;
     grid-gap: 10px;
@@ -590,7 +590,7 @@ body {
   }
 
   .box {
-    background-color: #444;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -599,11 +599,10 @@ body {
   }
   .box .box {
     background-color: #ccc;
-    color: #444;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   }
-
   .a {
-    grid-column: col / span 2;
+    grid-column: col 2 / span 2;
     grid-row: row;
   }
 
@@ -613,7 +612,7 @@ body {
   }
 
   .c {
-    grid-column: col / span 2;
+    grid-column: col 2 / span 2;
     grid-row: row 2;
   }
 
@@ -639,4 +638,3 @@ body {
     grid-column: 2;
     grid-row: 2;
   }
-  */
