@@ -1,293 +1,642 @@
 h3 {
-    font-family: 'Signika Negative';
-    font-size: 3rem;
-    background-color: #cf95c7;
-    text-shadow: 2px 2px;
-    text-align: center;
+  font-family: 'Signika Negative';
+  font-size: 3rem;
+  background-color: #cf95c7;
+  text-shadow: 2px 2px;
+  text-align: center;
 }
 .seccionServicios {
-    display: block;
-    font-family: 'Signika';
-    font-size: 1rem;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
+  display: block;
+  font-family: 'Signika';
+  font-size: 1rem;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
 
 }
 #imagenPrincipal {
-    background-image: url(../img/imagengalaxia.jpg);
-    height: 60rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    size: cover;
-    margin-bottom: 5rem;
-   
+  background-image: url(../img/imagengalaxia.jpg);
+  height: 60rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  size: cover;
+  margin-bottom: 5rem;
+ 
 }
 .sEsoterico {
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Signika Negative';
-    font-weight: bolder;
-    margin: 0;
-    padding: 0;
-    color: black;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Signika Negative';
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 
 .fuenteGrande {
-    font-size: 12rem; /* 1 rem : 10px */
-    text-align: center;
-    font-family: 'Signika';
-    color: blanchedalmond;
-    text-shadow: 4px 4px rgb(19, 1, 27);
+  font-size: 12rem; /* 1 rem : 10px */
+  text-align: center;
+  font-family: 'Signika';
+  color: blanchedalmond;
+  text-shadow: 4px 4px rgb(19, 1, 27);
 }
 /*
 *{
-    margin:0 ;
-    padding: 0;
+  margin:0 ;
+  padding: 0;
 }
 */
 html {
-    font-size: 62.5%;
-    background-color: antiquewhite;
-    
+  font-size: 62.5%;
+  background-color: antiquewhite;
+  
 }
 h2 { 
-    color:#97dbd1;
-    font-family: 'Signika';
-    font-size: 4.8rem;
-    line-height: 1.5;
-    text-align: center;
-   
+  background-image: linear-gradient(180deg, #a8f38b 0, #93ec90 12.5%, #7de493 25%, #67d996 37.5%, #50cc96 50%, #39bf95 62.5%, #20b495 75%, #00aa95 87.5%, #00a195 100%);
+  font-family: 'Signika';
+  font-size: 4.8rem;
+  line-height: 1.5;
+  text-align: center;
+ 
 }
 #servicios {
-    height: 500px;
-    
+  height: 500px;
+  
 }
- section div {
-    background-image: url(https://i.pinimg.com/originals/06/25/f6/0625f661ba270aac7553f7db742c7b24.jpg);
-     
- }
+section div {
+  background-image: url(https://i.pinimg.com/originals/06/25/f6/0625f661ba270aac7553f7db742c7b24.jpg);
+   
+}
 
 
- .fuenteGrande {
-     font-size: 12rem; /* 1 rem : 10px */
-     text-align: center;
-     font-family: 'Signika';
- }
+.fuenteGrande {
+   font-size: 12rem; /* 1 rem : 10px */
+   text-align: center;
+   font-family: 'Fredoka One';
+   margin-top: auto;
+}
 
- .fuenteMediana {
-     font-size: 8rem ;
-     font-family: 'Signika';
-     text-align: center;
-     line-height: 1.6;
-     font-weight: bold;
-     color:azure;
- }
+.fuenteMediana {
+   font-size: 8rem ;
+   font-family: 'Signika';
+   text-align: center;
+   line-height: 1.6;
+   font-weight: bold;
+   color:azure;
+   margin-top: auto;
+}
 
- ul { 
-        list-style-type:circle;
-        font-family: 'Signika';
-        font-size: 4rem;
-        color:rgb(255, 0, 157);
-        text-align: left;
- }
+ul { 
+      list-style-type:circle;
+      font-family: 'Signika';
+      font-size: 5rem;
+      color:rgb(14, 12, 13);
+      text-align: left;
+      text-shadow: #97dbd1;
+}
 
- .cursiva {
-     font-style: italic;
-     font-weight: bold;
-     font-family: 'Signika';
-     text-align: justify;
-     line-height: 1.8;
-     font-size: 4rem;
- }
- a {
-     text-decoration: none;
- }
- #imagen-fondo{
-     background-image: url(../img/imagengalaxia.jpg);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
- }
+.cursiva {
+   font-style: italic;
+   font-weight: bold;
+   font-family: 'Signika';
+   text-align: justify;
+   line-height: 1.8;
+   font-size: 4rem;
+}
+a {
+   text-decoration:dashed;
+}
+#imagen-fondo{
+   background-image: url(../img/imagengalaxia.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
 
 #Tablas {
-    font-family: 'Signika';
-    font-size: 3rem;
-    text-align:justify;
-    line-height: 1.2;
-    background-image: url(https://i.pinimg.com/originals/06/25/f6/0625f661ba270aac7553f7db742c7b24.jpg);
-    background-position: center;
-    color: rgba(14, 0, 78, 0.479);
-    Margin: 15px 50px 18px 30px;
+  font-family: 'Signika';
+  font-size: 3rem;
+  text-align:justify;
+  line-height: 1.2;
+  background-image: url(https://i.pinimg.com/originals/06/25/f6/0625f661ba270aac7553f7db742c7b24.jpg);
+  background-position: center;
+  color: rgba(14, 0, 78, 0.479);
+  Margin: 15px 50px 18px 30px;
 /* propiedades decorativas */
-    border: solid 1px black;
-    padding: 5px;
-    display: inline-block; 
-    transform: translate(15% 10%);
+  border: solid 1px black;
+  padding: 5px;
+  display: inline-block; 
+  transform: translate(15% 10%);
 }
 p {
-    text-align: center;
-    font-family: 'Signika Negative';
-    font-size: 3.6rem;
-    line-height: 1.6;
-    overflow: hidden;
+  text-align: center;
+  font-family: 'lato';
+  font-size: 3.6rem;
+  line-height: 1.6;
+  overflow: hidden;
+  color: #000000;
 
 }
 li {
-    display: inline-block;
-    font-size: 23px;
-    
+  display: inline-block;
+  font-size: 23px;
+  
 } 
+/*media*/
+@media (min-width: 768px) {
+  .card1 {
+      width: 60%;
+  }
+  @media (max-width: 767px) {
+  #grilla {
+      display: grid;
+      grid-template-areas:
+        "header"
+        "nav"
+        "productos"
+        "publicidad"
+        "servicios"
+        "footer";
+      /* grid-template-rows: 100px 1fr 1fr 75px; 
+      grid-template-columns: 20% auto 15%; */
+      /* row-gap: 50px;
+      column-gap: 50px; */
+      }
+  } 
 
+@media (min-width: 768px) {
+  #grilla {
+      display: grid;
+      grid-template-areas:
+        "nav header header"
+        "nav productos publicidad"
+        "nav servicios publicidad"
+        "nav footer footer";
+      grid-template-rows: 100px 1fr 1fr 75px; 
+      grid-template-columns: 20% auto 15%;
+      row-gap: 50px;
+      column-gap: 50px;
+   }
+}
 .card1 {
-    background-color: rgb(167, 123, 209);
-    width: 50%;
-    height: 500px;
-    margin-bottom: 80px;
-    padding: 100px 50px;
-    position:relative; 
-    transform: translate(40%,10%);
-    
+  background-color: rgb(167, 123, 209);
+  width: 50%;
+  height: 500px;
+  margin-bottom: 80px;
+  padding: 100px 50px;
+  position:relative; 
+  transform: translate(40%,10%);
+  
 }
 .card1 img {
-    display: block;
-    width: 150px;
-    margin: 0 auto;
-    border: inset 3px salmon;
-    border-radius: 50px;
-    
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  border: inset 3px salmon;
+  border-radius: 50px;
+  
 }
 .card3 {
-    width: 50%;
-    height: 500px;
-    margin-bottom: auto;
-    padding:70%;
-    position:static;
-  
-  
+  width: 50%;
+  height: 500px;
+  margin-bottom: auto;
+  padding:70%;
+  position:static;
+
+
 }
 .card4 {
-    text-align: start;
-    font-family: 'Signika';
-    font-size: 2rem;
-    padding: 0%;
-    margin-top: 60px;
-    padding: 100px;
+  text-align: start;
+  font-family: 'Signika';
+  font-size: 2rem;
+  padding: 0%;
+  margin-top: 60px;
+  padding: 100px;
 }
 .card4 img{
-    display:inline-block;
-    width: 22rem;
-    height: 20rem;
-    margin: 0;
-    overflow:unset;
-    align-items: center;
-    }
+  display:inline-block;
+  width: 22rem;
+  height: 20rem;
+  margin: 0;
+  overflow:unset;
+  align-items: center;
+  }
 .oferta  {
-    font-family: 'Signika';
-    font-size: 4rem;
-    text-align: center;
-    font-weight: bolder;
-    line-height: 1.5;
-    text-decoration: wavy;
-    position: absolute;
-    top: 0;
-    background-color: whitesmoke;
+  font-family: 'Signika';
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 1.5;
+  text-decoration: wavy;
+  position: absolute;
+  top: 0;
+  background-color: whitesmoke;
 }
 
 footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
 }
 
 button {
-    padding: 1rem;
-    position:absolute;
-    border-radius: 10px;
-    margin: 0;
-    margin-left: 36%;
-    
+  position:absolute;
+  border-radius: 10px;
+  margin: 0;
+  margin-left: 36%;
+  background-color: #7757d1;
+  border: none;
+  color: white;
+  padding: 15px 9px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 17px;
+  
 }
 .text-center {
-    text-align: center;
-    font-family: 'Signika Negative';
-    font-size: 3rem;
-    border:ridge lavenderblush;
+  text-align: center;
+  font-family: 'Signika';
+  font-size: 3rem;
+  border:ridge rgb(194, 87, 204);
 }
 #enlaceWa {
-    color:rgb(80, 28, 73);
-    font-size: 60px;
-    position: fixed;
-    bottom: 0;
-    right: 40px;
+  color:rgb(80, 28, 73);
+  font-size: 60px;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
 }
 .logo {
-    display: block;
-    width: 150px;
-    margin: 0 auto;
-    border-right: solid 3px magenta;
-    border-radius: 30px;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  border-right: solid 3px magenta;
+  border-radius: 30px;
 
 
 }
 
 #imagenPaisaje{ 
-    background-image: url(../img/paisaje.jpg);
+  background-image: url(../img/paisaje.jpg);
 }
 .card2 {
-    background-color: rgb(167, 123, 209);
-    width: 50%;
-    height: 500px;
-    margin-bottom: 80px;
-    padding: 100px 50px;
-    position:relative; 
-    align-items: center;
-    transform: translate(40%,10%);
-    
+  background-color: rgb(167, 123, 209);
+  width: 50%;
+  height: 500px;
+  margin-bottom: 80px;
+  padding: 100px 50px;
+  position:relative; 
+  align-items: center;
+  transform: translate(40%,10%);
+  
 }
 .card2 img {
-    display: block;
-    width: 150px;
-    margin: 0 auto;
-    border: inset 3px salmon;
-    border-radius: 50px;
-    align-items: center;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  border: inset 3px salmon;
+  border-radius: 50px;
+  align-items: center;
 
 }
 
 
 .infoContacto{
-    font-family: 'Signika';
-    font-size: 3rem;
-    text-align: center;
-    line-height: 1.2;
-    background-position: center;
-    background-color: #cf95c7;
+  font-family: 'Signika';
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.2;
+  background-position: center;
+  background-color: #cf95c7;
 }
 form{
-    font-size: 4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
-    color:black;
-    text-align:center ;
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  color:black;
+  text-align:center ;
 }
 .enviar {
-    padding: 1rem;
-    border-radius: 10px;
-    align-items: flex-start;
-    box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
 
 }
 .colorido{
-    text-align: left;
-    font-family: 'Signika Negative';
-    font-size: 4rem;
-    color: rgb(32, 28, 32);
-    display: block;
-    text-align: center; 
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-      
-    }
+  text-align: left;
+  font-family: 'Signika Negative';
+  font-size: 4rem;
+  color: rgb(32, 28, 32);
+  display: block;
+  text-align: center; 
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+    
+  }
+  
+
+/*GRID INDEX*/
+#index {
+  display: grid;
+  grid-template-areas:
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    grid-template-rows: 255px 1fr 1 fr -3px;
+    grid-template-columns: 15% auto 15%;
+  column-gap: 50px;
+}
+.border {
+  border: 1px solid black;
+background-image: url(https://i.pinimg.com/originals/06/25/f6/0625f661ba270aac7553f7db742c7b24.jpg);
+}
+
+
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+}
+section#productos {
+  grid-area: productos;     
+}
+section#servicios {
+  grid-area: servicios;     
+}
+nav {
+  grid-area: nav;
+}
+aside {
+  grid-area: publicidad;
+}
+/* GRID HIJOS */
+#index-hijos {
+display: grid;
+justify-items: stretch; /* start | end | center | stretch */
+align-items: stretch; /* start | end | center | stretch */
+width: 95%;
+grid-template-columns: auto auto;
+grid-column-gap: 10px;
+grid-template-rows: 100px 100px;
+grid-row-gap: 10px;
+height: 100vh;
+/*justify-content: center /*starr | end | center | space-between | space-around | space-evenly*/;
+/*align-content: center /*starr | end | center | space-between | space-around | space-evenly*/;
+}
+
+#padre div {
+border: solid 1px;
+font-size: 21px;
+padding: 5px;
+
+}
+
+.hijo-self {
+justify-self: start;
+}
+
+#servicios{
+
+text-align: justify;
+}
+#mapa{
+  border: 200px;
+  height: 15rem;
+  object-fit: cover;
+  object-position: 15% 100%;
+  width: 25rem;
+transform: translate(505px, -20px);
+
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none; 
+  
+/* grid index*/
+body {
+  margin: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+  position: relative;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.index {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas:
+    "header  header  header"
+    "sidebar content content"
+    "footer  footer  footer";
+    background-color: #fff;
+    color: #444;
+  }
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* grid servicios*/
+body {
+  margin: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+
+  .servicios {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-areas:
+    "....... header header"
+    "sidebar content content"
+    "footer  footer  footer";
+    background:rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-size: cover;
+
+  }
+
+
+.box {
+  background:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header
+.footer {
+  background-color: #999;
+}
+/* GRID PRODUCTOS */
+body {
+  margin: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}
+#productos{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-areas:
+  "....... header header"
+  "sidebar content content"
+  "footer  footer  footer";
+  background:rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background-size: cover; 
+}
+.flex-container {
+    display: flex;
+    flex-direction: column 2 row 4;
+
+}
+/*
+  .productosGrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px ) ;
+    grid-template-rows: repeat(2, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+  }
+  .box .box {
+    background-color: #ccc;
+    color: #444;
+  }
+
+  .a {
+    grid-column: col / span 2;
+    grid-row: row;
+  }
+
+  .b {
+    grid-column: col 3 / span 2;
+    grid-row: row;
+  }
+
+  .c {
+    grid-column: col / span 2;
+    grid-row: row 2;
+  }
+
+  .d{
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .e {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .f {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .g {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  */
