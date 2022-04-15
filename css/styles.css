@@ -428,9 +428,6 @@ iframe {
   border: none; 
 
 /* grid index*/
-body{
-  margin: 20px;
-}
 
 .sidebar {
   grid-area: sidebar;
