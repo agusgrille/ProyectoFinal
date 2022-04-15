@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,13 @@
     <link rel="shortcut icon" href="../img/yinyan.png" type="image/x-icon" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:ital,wght@0,300;1,300;1,900&family=Lobster&family=Rubik+Bubbles&family=Rubik+Microbe&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Contacto</title>
 </head>
 <body>
-<header>
+    <img class="logo" src="../img/reza.jpg" alt="rezando">
+<header class="contacto">
     <nav>
     <ul>
         <li>
@@ -27,34 +29,23 @@
             <a href="contacto.html">Contacto</a>
         </li>
         <li>
-        <a href="faq.html">Preguntas frecuentes</a>
+            <a href="faq.html">Preguntas frecuentes</a>
         </li>
         <li>
-        <a href="https://www.instagram.com/esoterik.tienda/">Ir al instagram</a>
+            <a href="https://www.instagram.com/esoterik.tienda/" target="blank_">Ir al instagram</a>
         </li>
     </ul>
     </nav>
 </header>
-    <img class="logo" src="../img/reza.jpg" alt="rezando">
 
-    <h1 id="imagenPaisaje" class="fuenteGrande">CONTACTO</h1>
+    <h1 id="imagenPaisaje" class="border fuenteGrande">CONTACTO</h1>
 
-    <h2>¿Quiénes somos?</h2>
+    <h2 box sidebar>¿Quiénes somos?</h2>
 
-        <p class="infoContacto">Nos dedicamos hace mas de 10 años al rubro esoterico, te invito a que te atrevas a conocer un mundo nuevo y desafíes tu propia credibilidad sobre lo mágico.
+        <p class=" box content infoContacto">Nos dedicamos hace mas de 10 años al rubro esoterico, te invito a que te atrevas a conocer un mundo nuevo y desafíes tu propia credibilidad sobre lo mágico.
         No dudes en consultarnos, estamos disponibles las 24 hs.</p>
-
-        <iframe class="logo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.385725632708!2d-58.53634648477197!3d-34.54378788047505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb74afee53e67%3A0xbd332299f52c8182!2sBermejo%20923%2C%20San%20Andres%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647289740218!5m2!1ses!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-    <form>
-
+    <form class="overlay">
         <fieldset>
-            <legend>Dejanos tu consulta</legend>
-
-            <div>
-                <textarea placeholder="Escribe aquí"></textarea>
-            </div>
-
         <div>
             <label for ="Nombre">Nombre</label>
             <input type="text" id="Nombre">
@@ -71,12 +62,17 @@
             <label for ="E-mail">E-mail</label>
             <input type="e-mail" id="E-mail" required>
         </div>
-
+        <legend >Dejanos tu consulta</legend>
+        <div>
+            <textarea placeholder="Escribe aquí"></textarea>
+        </div>
         <input type="submit" value="Enviar" class="enviar">
+
     </fieldset>
     </form>
-   
-  
+    
+        <a href="" id="enlaceWa">Ir a whatsapp</a>
+    </div>    
 <footer>Seguinos en todas nuestras redes sociales @Esoterik-Todos los medios de pago </footer>
 </body>
 </html>
