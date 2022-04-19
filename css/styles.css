@@ -830,7 +830,7 @@ margin: 23px 25px 110px 153px;
     background-position: right center;
   }
   .css-button-gradient--1:active {
-    top: 2px;
+  top: 2px;
   }
 }
 .correo {
@@ -839,5 +839,11 @@ margin: 23px 25px 110px 153px;
 h1{
   text-align: center;
   font-family: 'Lato';
-  
+  font-size: 4rem;
+}
+.navbar {
+  border-radius: 50px;
+background: linear-gradient(45deg, #8e5d7b, #a96e93);
+box-shadow:  20px -20px 60px #865874,
+            -20px 20px 60px #b6769e;
 }
