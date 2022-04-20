@@ -834,8 +834,12 @@ margin: 23px 25px 110px 153px;
   }
 }
 .correo {
-
+  width:30px;
+  margin: 0;
+  align-items: center;
+  transform: translate(750px, 10px)
 }
+
 h1{
   text-align: center;
   font-family: 'Lato';
@@ -846,4 +850,8 @@ h1{
 background: linear-gradient(45deg, #8e5d7b, #a96e93);
 box-shadow:  20px -20px 60px #865874,
             -20px 20px 60px #b6769e;
+}
+#carouselExampleControls {
+  width: 300px;
+  margin: 0 auto;
 }
