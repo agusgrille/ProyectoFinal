@@ -752,6 +752,36 @@ div{
 }
 .item {
   text-align: center;
+
+}
+#cards-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 100px;
+}
+
+img.rounded-circle {
+  height: 250px;
+}
+
+.card1-flex {
+  width: 50%;
+  background-color:#999 ;
+  color: white;
+}
+
+@media (max-width: 1023px){
+  #cards-flex {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  #cards-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 }
 /*
 .btn-whatsapp {
@@ -883,5 +913,18 @@ box-shadow:  20px -20px 60px #865874,
   width:30px;
   margin: 0;
   align-items: center;
-  transform: translate(750px, 10px)
+  transform: translate(723px,-6px);
 }
+h3 {
+  background: hsla(287, 23%, 65%, 1);
+
+  background: linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B190BA", endColorstr="#E8B595", GradientType=1 );
+
+}
+
