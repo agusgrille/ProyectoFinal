@@ -44,7 +44,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/aguadeflorida.jpg" class="d-block w-100" alt="agua de florida">
+            <img src="img/aguadeflorida.jpg" class=" index d-block w-100" alt="agua de florida">
         </div>
         <div class="carousel-item">
             <img src="img/aguadelavanda.jpg" class="d-block w-100" alt="agua de lavanda">
@@ -72,13 +72,24 @@
 </div>
     <h2>Creaste tu cuenta para mas info?</h2>
 <svg class="correo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill='#FFFFFF'><path d="M1 5v14l7-7-7-7zm22 14V5l-7 7 7 7zm-11-3l-3.5-3.5L1 20h22l-7.5-7.5L12 16zM1 4l11 11L23 4H1z"></path></g></svg>
-<div class=" ingreso container">
-    <h3>Ingresa!</h3>
-    <form action="#">
+<form action="/action_page.php">
+    <div class="form-group">
+        <div class=" ingreso container">
+        <h3>Ingresa!</h3>
+        <form action="#">
 	<div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
 	</div>
+    <div class="form-group">
+        <label for="pwd">Contraseña:</label>
+        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    </div>
+    <div class="form-group form-check">
+        <label class="form-check-label">
+    <input class="form-check-input" type="checkbox"> Recordarme
+        </label>
+    </div>
 	<button type="submit" class="btn btn-default">
                 Ingresar
         </button>

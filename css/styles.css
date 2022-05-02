@@ -525,6 +525,14 @@ iframe {
   bottom: 0;
   right: 0;
 }
+.img index{
+  height: 100px;
+  width: 20%;
+}
+.form-group {
+  font-family: 'Lato';
+  font-size: 3rem;
+}
 /* grid servicios*/
 body {
   margin: 20px;
@@ -673,15 +681,25 @@ textarea {
   padding: 27px;
 }
 
+.card-text {
+  font-family: 'Lato';
+  font-size: 2rem;
+}
+.quien-soy {
+  padding:0;
+  margin:0;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 /*PRODUCTOS*/
 
 .section-product {
-  display:block;
-  box-sizing: inherit;
-  font-size: 4rem;
-
+    display: inline-flex;
+    grid-row: row;
+    flex-wrap: wrap;
 }
-
+/*
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -753,10 +771,11 @@ div{
 .item {
   text-align: center;
 
-}
+}*/
 #cards-flex {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat (4,1fr);
   row-gap: 100px;
 }
 
@@ -765,9 +784,15 @@ img.rounded-circle {
 }
 
 .card1-flex {
-  width: 50%;
+  width: 40%;
   background-color:#999 ;
   color: white;
+}
+.card2-flex {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1start;
+  grid-row-end: 3;
 }
 
 @media (max-width: 1023px){
@@ -828,6 +853,7 @@ a:-webkit-any-link {
   border: 1px solid #000;
   color: #000;
   background: transparent;
+  font-size: 10px;
 }
 .css-button-retro--green:hover:after {
   top: 0;
