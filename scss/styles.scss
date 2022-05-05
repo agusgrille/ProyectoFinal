@@ -1,5 +1,73 @@
 @import "tipografias","variables","condicionales","maps","variables","extend";
+body {
+    margin: 20px;
+    font-size: 150%;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #8e5d7b, #a96e93);
+    box-shadow:  20px -20px 60px #865874,
+    -20px 20px 60px #b6769e;
+}
+.logo {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border-right: solid 3px magenta;
+    border-radius: 30px;  
+}
 .h3{
     text-align: center;
     @include subtitulos;
+}
+html {
+    font-size: 62.5%;
+    background-color: antiquewhite;
+}
+nav {
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    li { display: inline-block; }
+
+    a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    }
+}
+.css-button-retro--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    font-size: 10px;
+}
+.css-button-retro--green:hover:after {
+    top: 0;
+    left: 0;
+}
+.css-button-retro--green:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #80ed99;
+}
+#carouselExampleControls {
+    width: 300px;
+    margin: 0 auto;
 }

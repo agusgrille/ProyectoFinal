@@ -9,3 +9,10 @@
     @extend .parrafos1;
         font-size:4.5rem;
     }
+
+.footer {
+    @extend .parrafos1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: white;
+    } 
