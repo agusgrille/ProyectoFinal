@@ -1,0 +1,14 @@
+@mixin subtitulos {
+    background: hsla(287, 23%, 65%, 1);
+
+    background: linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    
+    filter: ( startColorstr="#B190BA", endColorstr="#E8B595", GradientType=1 );
+}
+.h3 {
+    @include subtitulos;
+}

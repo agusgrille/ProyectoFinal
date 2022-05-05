@@ -1,0 +1,25 @@
+$vista:mobile;
+    $h1Mobile: 30px;
+    $parrafoMobile: 18px;
+    $parrafoDesktop: 25px;
+    $h1Desktop: 40px;
+
+    body{
+        @if $vista == desktop {
+            @media only screen and (min-width:1024px){
+                h1{font-size:$h1Desktop;}
+                h3{font-size:35px;}
+                p{font-size:$parrafoDesktop;}
+                }
+            } @else if $vista == mobile {
+                @media only screen and (max-width:767px){
+                    h1{font-size:$h1Mobile;}
+                    h3{font-size:25px;}
+                    p{font-size:$parrafoMobile;}
+                }
+            } @else {
+                h1{font-size:34px;}
+                h3{font-size:25px;}
+                p{font-size:20px;}
+            }
+        }
