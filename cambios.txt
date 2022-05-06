@@ -1,1 +1,4 @@
 *AGREGANDO SCSS - SEO *
+1- agregue meta en el index, sobre de que trata la pagina y que se puede encontrar.
+2-reduci el uso de H2 y modifiqué algunos. 
+3-hice nesting con los svg de index, productos y contacto.

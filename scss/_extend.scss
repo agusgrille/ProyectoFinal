@@ -15,4 +15,31 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     color: white;
-    } 
+    }
+
+.fuenteGrande {
+        font-size: 12rem; 
+        text-align: center;
+        font-family: 'Signika';
+        color: blanchedalmond;
+        animation-duration: 3s;
+        animation-name:aparecer;
+        animation-iteration-count: infinite;
+}
+.svg {
+    width:30px;
+    margin: 0;
+    align-items: center;
+}
+.faq{
+    @extend .svg;
+    transform: translate(723px,-6px);
+}
+.carrito {
+    @extend .svg;
+    transform: translate(14px, 2px);
+}
+.correo {
+    @extend .svg;
+    transform: translate(1071px, -52px);
+}
