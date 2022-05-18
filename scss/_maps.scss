@@ -1,5 +1,5 @@
 
-$mapRedes:(facebook: #3B5998, twitter:#55ACEE);
+$mapRedes:(facebook: #3B5998, twitter:#55ACEE, instagram:#8d2bba);
 @each  $red, $color in mapRedes {
     .#{$red} {
         color: $color;

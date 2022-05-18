@@ -54,37 +54,6 @@ nav {
     transform: translate(1071px, -52px);
 }
     }
-.css-button-retro--green {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border: 1px solid #000;
-    color: #000;
-    background: transparent;
-    font-size: 10px;
-}
-.css-button-retro--green:hover:after {
-    top: 0;
-    left: 0;
-}
-.css-button-retro--green:after {
-    content: "";
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 5px;
-    left: 5px;
-    transition: 0.2s;
-    background-color: #80ed99;
-}
 #carouselExampleControls {
     width: 300px;
     margin: 0 auto;
@@ -108,7 +77,7 @@ button {
     text-align: center;
     text-decoration: underline;
     display: inline-block;
-    font-size: 17px;
+    font-size: 12px;
     width: 100px; height: 100px;
     transition: all 0.5s;       
 }
@@ -119,9 +88,8 @@ button:focus {
 
 .text-center {
     text-align: center;
-    font-family: 'Signika';
-    font-size: 3rem;
-    border:ridge rgb(194, 87, 204);
+    font-family: 'Lato';
+    font-size: 2.5rem;
 }
 #enlaceWa {
     color:rgb(80, 28, 73);
@@ -184,4 +152,181 @@ p {
     line-height: 1.6;
     overflow: hidden;
     color: #000000;
+}
+
+/*PRODUCTOS*/
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat (4,1fr);
+    row-gap: 100px;
+    padding: 50px;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+img.rounded-circle {
+    height: 250px;
+}
+
+.card1-flex {
+    width: 30%;
+    background: hsla(287, 23%, 65%, 1);
+
+    background: linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+    -webkit-border-radius: 39px;
+    border-radius: 39px;
+    background: #e596e1;
+    -webkit-box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
+    box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
+}
+.pointer {
+    cursor: pointer;
+}
+
+@media (max-width: 1023px){
+    #cards-flex {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    #cards-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.p-3 {
+    display: inline-block;
+    padding: 10rem !important;
+    margin: auto;
+}
+/*INDEX*/
+.ingreso{
+    background: rgba( 125, 28, 191, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 40px;
+    margin: 23px 25px 110px 153px;
+    }
+    .btn {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;  
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-size: 120% auto;
+        background-image: linear-gradient(315deg, #4ecdc4 0%, #c797eb 75%);
+    }
+    .css-button-gradient--1:hover {
+        background-position: right center;
+}
+.css-button-gradient--1:active {
+    top: 2px;
+    }
+    .navbar {
+    border-radius: 50px;
+    background: linear-gradient(45deg, #8e5d7b, #a96e93);
+    box-shadow:  20px -20px 60px #865874,
+            -20px 20px 60px #b6769e;
+    }
+    .box {
+        background: hsla(302, 82%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+
+filter: gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1 );
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 6.5rem;
+        font-family: 'Fredoka';
+}
+.content {
+    grid-area: content;
+    position: relative;
+    -webkit-border-radius: 39px;
+    border-radius: 39px;
+    background: #e596e1;
+    -webkit-box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
+    box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
+}
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-gap: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #8e5d7b, #a96e93);
+    box-shadow:  20px -20px 60px #865874,
+                -20px 20px 60px #b6769e;
+}
+.overlay {
+    background: rgba( 125, 28, 191, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 10;
+    grid-column: content-start / content-end;
+    grid-row: header-start / content-end;
+}
+fieldset{
+font-size: 1.5rem;
+width: 100%;
+padding: 1.2rem;
+border: 0.2rem solid none;
+border-radius: 0.4rem;
+box-sizing: border-box;
+margin-top: 0.6rem;
+margin-bottom: 1.6rem;
+resize: vertical;
+}
+textarea {
+transform: revert;
+height: 100%;
+color:-internal-light-dark(black, white);
+white-space: pre-line;
+background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+margin: 0em;
+border-width: 5px;
+border-style: dashed;
+border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+border-image: coral;
+padding: 27px;
+}
+.card-text {
+display: inline-block;
+font-family: 'Lato';
+font-size: 2rem;
+box-sizing: content-box;  
+width: 300px;
+height: 100px;
+padding: 30px;  
+}
+.quien-soy {
+margin: auto;
+width: 50%;
+padding: 10px;
 }
