@@ -1,4 +1,8 @@
 @import "tipografias","variables","condicionales","maps","variables","extend";
+html {
+    font-size: 62.5%;
+    background-color: antiquewhite;
+}
 body {
     margin: 20px;
     font-size: 150%;
@@ -14,31 +18,36 @@ body {
     border-right: solid 3px magenta;
     border-radius: 30px;  
 }
-.h3{
-    text-align: center;
-    @include subtitulos;
+
+#enlaceWa {
+    color:rgb(80, 28, 73);
+    font-size: 60px;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
 }
-html {
-    font-size: 62.5%;
-    background-color: antiquewhite;
-}
-nav {
+
+.navbar {
     ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0,5rem;
+    padding: 1rem;
+    list-style-type:none;
     }
     li { 
         display: inline-block; 
-        font-size: 3rem;
+        font-size: 4rem;
     }
-
     a {
     display: block;
-    padding: 6px 12px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     }
 }
+.redes{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
 .svg {
     width:30px;
     margin: 0;
@@ -54,16 +63,17 @@ nav {
     transform: translate(1071px, -52px);
 }
     }
-#carouselExampleControls {
-    width: 300px;
-    margin: 0 auto;
-}
+
 h2 { 
     @include subtitulos;
     font-family: 'Signika';
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     line-height: 1.5;
     text-align: center;
+}
+.h3{
+    text-align: center;
+    @include subtitulos;
 }
 button {
     position:absolute;
@@ -77,27 +87,28 @@ button {
     text-align: center;
     text-decoration: underline;
     display: inline-block;
-    font-size: 12px;
+    font-size: 4rem;
     width: 100px; height: 100px;
     transition: all 0.5s;       
 }
 button:focus {
-    width: 100px;
-    font-size: 3rem;
+    width: 50px;
+    font-size: 2rem;
 }
-
+/*SERVICIOS*/
+.content {
+    grid-area: content;
+    position: relative;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 26px; box-shadow: 0px 35px 68px 0px rgba(189, 16, 224, 0.5), inset 0px -3px 16px 0px rgba(189, 16, 224, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
 .text-center {
     text-align: center;
     font-family: 'Lato';
     font-size: 2.5rem;
 }
-#enlaceWa {
-    color:rgb(80, 28, 73);
-    font-size: 60px;
-    position: fixed;
-    bottom: 0;
-    right: 40px;
-}
+
 .infoContacto{
     font-family: 'Signika';
     font-size: 3rem;
@@ -107,8 +118,8 @@ button:focus {
     background-color: #cf95c7;
 }
 form{
-    font-size: 4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-family: 'Signika Negative';
     line-height: 1.5;
     color:black;
     text-align:center ;
@@ -188,6 +199,10 @@ img.rounded-circle {
 .pointer {
     cursor: pointer;
 }
+.text-dark{
+    text-align: center;
+    font-family: monospace;
+}
 
 @media (max-width: 1023px){
     #cards-flex {
@@ -215,8 +230,8 @@ img.rounded-circle {
     -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding: 40px;
-    margin: 23px 25px 110px 153px;
+    padding: 16px;
+    margin: auto;
     }
     .btn {
         min-width: 130px;
@@ -258,18 +273,13 @@ background: -webkit-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 
 filter: gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1 );
         color: #fff;
         border-radius: 5px;
-        padding: 20px;
+        padding: 0px;
         font-size: 6.5rem;
         font-family: 'Fredoka';
 }
-.content {
-    grid-area: content;
-    position: relative;
-    -webkit-border-radius: 39px;
-    border-radius: 39px;
-    background: #e596e1;
-    -webkit-box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
-    box-shadow: 18px 18px 44px #ae72ab, -18px -18px 44px #ffbaff;
+#carouselExampleControls {
+    width: 300px;
+    margin: 0 auto;
 }
 /*CONTACTO*/
 .contacto{
@@ -281,6 +291,7 @@ filter: gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1
     box-shadow:  20px -20px 60px #865874,
                 -20px 20px 60px #b6769e;
 }
+
 .overlay {
     background: rgba( 125, 28, 191, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -325,8 +336,33 @@ width: 300px;
 height: 100px;
 padding: 30px;  
 }
+.card-img-top{
+    width: 50%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px;
+    transform: translate(180px, -5px);
+    overflow: auto;
+}
 .quien-soy {
 margin: auto;
-width: 50%;
+width: 100px;
 padding: 10px;
+}
+
+/*FAQ*/
+.card-deck{
+    display: flex;
+}
+.newspaper {
+        column-count: 3;
+        column-gap: 40px;
+        column-rule-style: solid;
+}
+.card-body{
+    background: rgba( 179, 139, 220, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

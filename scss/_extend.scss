@@ -9,7 +9,10 @@
     @extend .parrafos1;
         font-size:3rem;
     }
-
+.text-dark{
+    font-family: monospace;
+    @extend .parrafos2;
+}
 footer {
     @extend .parrafos1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,10 +24,17 @@ footer {
         font-size: 10rem; 
         text-align: center;
         font-family: 'Signika';
-        color: blanchedalmond;
+        color: rgb(255, 205, 238);
         animation-duration: 3s;
         animation-name:aparecer;
         animation-iteration-count: infinite;
+}
+h4{
+    background-image: url(https://i.pinimg.com/564x/7d/e4/a6/7de4a678cb53cdf6e1fddea5e4f660f6.jpg);
+    text-align: center;
+    font-family: 'Signika';
+    font-size: 4rem;
+    @extend .fuenteGrande;
 }
 .svg {
     width:30px;

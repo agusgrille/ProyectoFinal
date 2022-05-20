@@ -10,7 +10,6 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:ital,wght@0,300;1,300;1,900&family=Lobster&family=Rubik+Bubbles&family=Rubik+Microbe&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,900&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Signika+Negative:wght@300;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500;700&display=swap" rel="stylesheet">
@@ -20,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="img/logo.jpg" alt="logo" >
+        <img class="logo float-right img-fluid" src="img/logo.jpg" alt="logo" >
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
@@ -33,50 +32,58 @@
                 <a class="nav-link" href="pages/servicios.html">Servicios</a>
                 <a class="nav-link" href="pages/contacto.html">Contacto</a>
                 <a class="nav-link disabled" href="pages/faq.html" tabindex="-1" aria-disabled="true">Faq</a>
+            <div class="redes">
+                    <a href="https://www.instagram.com/esoterik.tienda/" target="_blank" class="fa fa-instagram"></a>
+
+                    <a href="https://www.facebook.com/esoterik.tienda" target="_blank" class="fa fa-facebook"></a>
+
+                    <a href="https://twitter.com/?lang=es" target="_blank" class="fa fa-twitter"></a> 
+            </div>     
                 </div>
             </div>
             </div>
         </nav>
     </header>
-
+    
     <h1 class="fuenteGrande" >ESOTERIK</h1>
-
-        <h2>NUESTROS DESTACADOS</h2>
+    <h2>NUESTROS DESTACADOS</h2>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/aguadeflorida.jpg" class=" index d-block w-100" alt="agua de florida">
+            <img src="img/sahumadores.jpg" class="img-fluid index d-block w-100" alt="sahumadores ceramica">
         </div>
         <div class="carousel-item">
-            <img src="img/aguadelavanda.jpg" class="d-block w-100" alt="agua de lavanda">
+            <img src="img/velaluna.jpeg" class="img-fluid d-block w-100" alt="vela dibujo luna">
         </div>
         <div class="carousel-item">
-            <img src="img/bombaolibano.jpg" class="d-block w-100" alt="bomba defumadora olibano">
+            <img src="img/bombaolibano.jpg" class="img-fluid d-block w-100" alt="bomba defumadora olibano">
         </div>
         <div class="carousel-item">
-            <img src="img/bombasalvia.jpg" class="d-block w-100" alt="bomba defumadora salvia">
+            <img src="img/bombasalvia.jpg" class=" img-fluid d-block w-100" alt="bomba defumadora salvia">
         </div>
         <div class="carousel-item">
-            <img src="img/cartasegipcias.jpg" class="d-block w-100" alt="tarot egipcio">
+            <img src="img/cartasegipcias.jpg" class="img-fluid d-block w-100" alt="tarot egipcio">
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+    <button class=" btn btn-default carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Anterior </span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+    <button class="btn btn-default carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Siguiente</span>
     </button>
 </div>
+<section>
     <h2>Creaste tu cuenta para mas info?</h2>
-<svg class="correo" xmlns="https://www.instagram.com/esoterik.tienda/"viewBox="0 0 24 24"><g fill='#FFFFFF'><path d="M1 5v14l7-7-7-7zm22 14V5l-7 7 7 7zm-11-3l-3.5-3.5L1 20h22l-7.5-7.5L12 16zM1 4l11 11L23 4H1z"></path></g></svg>
+
+    <svg class="correo" xmlns="https://www.instagram.com/esoterik.tienda/"viewBox="0 0 24 24"><g fill='#FFFFFF'><path d="M1 5v14l7-7-7-7zm22 14V5l-7 7 7 7zm-11-3l-3.5-3.5L1 20h22l-7.5-7.5L12 16zM1 4l11 11L23 4H1z"></path></g></svg>
+
 <form action="/action_page.php">
+    <div class=" ingreso container">
     <div class="form-group">
-        <div class=" ingreso container">
-        <h3>Ingresa!</h3>
 	<div class="form-group">
         <label for="email">Email:</label>
         <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
@@ -90,17 +97,13 @@
     <input class="form-check-input" type="checkbox"> Recordarme
         </label>
     </div>
-	<button type="submit" class="btn btn-default">
-                Ingresar
-        </button>
+	<button type="submit" class="btn btn-default">Ingresar </button>
+</section>    
 </form>
 </div>
 
 <div>
-    <a href="https://www.instagram.com/esoterik.tienda/" target="_blank" class="fa fa-instagram"></a>
-    <a href="https://www.facebook.com/esoterik.tienda" target="_blank" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/?lang=es" target="_blank" class="fa fa-twitter"></a>
-<a href="https://wa.me/541130440927" target=_blank id="enlaceWa" class="js-btn-fixed-bottom btn-whatsapp visible-when-content-ready" aria-label="comunicate por Whatsapp">
+    <a href="https://wa.me/541130440927" target=_blank id="enlaceWa" class="js-btn-fixed-bottom btn-whatsapp visible-when-content-ready" aria-label="comunicate por Whatsapp">
     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
     width="64" height="64"
     viewBox="0 0 64 64"
