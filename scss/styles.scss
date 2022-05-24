@@ -1,4 +1,7 @@
 @import "tipografias","variables","condicionales","maps","variables","extend";
+*{
+    box-sizing: border-box;
+}
 html {
     font-size: 62.5%;
     background-color: antiquewhite;
@@ -10,6 +13,17 @@ body {
     background: linear-gradient(45deg, #8e5d7b, #a96e93);
     box-shadow:  20px -20px 60px #865874,
     -20px 20px 60px #b6769e;
+    background-size: contain;
+}
+@media screen and (max-width:600px) {
+    .footer{
+        font-size:1.5rem;
+    }
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 .logo {
     display: block;
@@ -43,13 +57,20 @@ body {
     text-decoration: none;
     }
 }
+@media screen and (max-width:600px){
+.navbar{
+    float: none;
+    width: 100%;
+}
+}
+
 .redes{
     display:flex;
     flex-direction: row-reverse;
 }
 
 .svg {
-    width:30px;
+    width:47px;
     margin: 0;
     align-items: center;
 
@@ -67,8 +88,8 @@ body {
 h2 { 
     @include subtitulos;
     font-family: 'Signika';
-    font-size: 4.5rem;
-    line-height: 1.5;
+    font-size: 3.5rem;
+    line-height: 1.2;
     text-align: center;
 }
 .h3{
@@ -167,8 +188,8 @@ p {
 .testimonios{
     height: 100%;
     width: 100%;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 16px;
     background-color: violet;
     box-shadow: 10px 10px 5px rgb(221, 188, 223);
 
@@ -184,11 +205,28 @@ p {
     margin: 50px;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 600px) {
+    .card1-flex {
+    width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #cards-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 img.rounded-circle {
     height: 250px;
 }
-
+@media screen and (max-width:600px){
+    img.rounded-circle{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
 .card1-flex {
     width: 30%;
     background: hsla(287, 23%, 65%, 1);
@@ -212,7 +250,7 @@ img.rounded-circle {
     font-family: monospace;
 }
 
-@media (max-width: 1023px){
+@media screen and (max-width: 1023px){
     #cards-flex {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -299,6 +337,8 @@ filter: gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1
     border-radius: 50px;
     background-image:url(https://i.pinimg.com/564x/39/47/81/39478172bc8723246e9f1282f12e3c58.jpg);
     background-repeat: no-repeat;
+    padding: 15px;
+    margin: 20px;
 }
 
 .overlay {
@@ -350,9 +390,9 @@ padding: 27px;
 }
 .quien-soy {
 margin: auto;
-width: 300px;
+width: 500px;
 padding: 10px;
-transform: translate(504px, 2px);
+transform: translate(26px, -5px);
 }
 
 h5{
@@ -360,6 +400,7 @@ h5{
     font-size: 3rem;
     color: whitesmoke;
     font-weight: bolder;
+    text-align: center;
 }
 .mapa{
     width: 200px;

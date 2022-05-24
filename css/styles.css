@@ -18,13 +18,14 @@
   font-family: 'Lato';
   line-height: 1.5;
   text-align: center;
-  font-size: 4.5rem; }
+  font-size: 1.5rem; }
 
 .parrafos2, .text-dark {
   font-size: 3rem; }
 
 .text-dark {
-  font-family: monospace; }
+  font-family: monospace;
+  text-align: center; }
 
 footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,13 +33,10 @@ footer {
   color: white; }
 
 .fuenteGrande, h4 {
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center;
-  font-family: 'Signika';
-  color: #ffcdee;
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite; }
+  font-family: 'Signika Negative';
+  color: #ffcdee; }
 
 h4 {
   background-image: url(https://i.pinimg.com/564x/7d/e4/a6/7de4a678cb53cdf6e1fddea5e4f660f6.jpg);
@@ -60,6 +58,9 @@ h4 {
 .correo {
   transform: translate(1071px, -52px); }
 
+* {
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%;
   background-color: antiquewhite; }
@@ -69,7 +70,16 @@ body {
   font-size: 150%;
   border-radius: 50px;
   background: linear-gradient(45deg, #8e5d7b, #a96e93);
-  box-shadow: 20px -20px 60px #865874, -20px 20px 60px #b6769e; }
+  box-shadow: 20px -20px 60px #865874, -20px 20px 60px #b6769e;
+  background-size: contain; }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 1.5rem; } }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 .logo {
   display: block;
@@ -99,12 +109,17 @@ body {
   padding: 0.5rem 1rem;
   text-decoration: none; }
 
+@media screen and (max-width: 600px) {
+  .navbar {
+    float: none;
+    width: 100%; } }
+
 .redes {
   display: flex;
   flex-direction: row-reverse; }
 
 .svg, .faq, .carrito, .correo {
-  width: 30px;
+  width: 47px;
   margin: 0;
   align-items: center; }
   .svg .faq, .faq .faq, .carrito .faq, .correo .faq {
@@ -121,8 +136,8 @@ h2 {
   background: -webkit-linear-gradient(90deg, #b191ba 0%, #e8b696 100%);
   filter: startColorstr="#B190BA", endColorstr="#E8B595", GradientType=1;
   font-family: 'Signika';
-  font-size: 4.5rem;
-  line-height: 1.5;
+  font-size: 3.5rem;
+  line-height: 1.2;
   text-align: center; }
 
 .h3 {
@@ -220,8 +235,8 @@ p {
 .testimonios {
   height: 100%;
   width: 100%;
-  padding: 10px;
-  margin: 5px;
+  padding: 5px;
+  margin: 16px;
   background-color: violet;
   box-shadow: 10px 10px 5px #ddbcdf; }
 
@@ -235,8 +250,23 @@ p {
   margin: 50px;
   justify-content: space-between; }
 
+@media screen and (max-width: 600px) {
+  .card1-flex {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  #cards-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 img.rounded-circle {
   height: 250px; }
+
+@media screen and (max-width: 600px) {
+  img.rounded-circle {
+    max-width: 100%;
+    height: auto; } }
 
 .card1-flex {
   width: 30%;
@@ -257,7 +287,7 @@ img.rounded-circle {
   text-align: center;
   font-family: monospace; }
 
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   #cards-flex {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -334,7 +364,9 @@ img.rounded-circle {
   box-shadow: 20px -20px 60px #865874, -20px 20px 60px #b6769e;
   border-radius: 50px;
   background-image: url(https://i.pinimg.com/564x/39/47/81/39478172bc8723246e9f1282f12e3c58.jpg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 15px;
+  margin: 20px; }
 
 .overlay {
   background: rgba(125, 28, 191, 0.25);
@@ -384,15 +416,16 @@ textarea {
 
 .quien-soy {
   margin: auto;
-  width: 300px;
+  width: 500px;
   padding: 10px;
-  transform: translate(504px, 2px); }
+  transform: translate(26px, -5px); }
 
 h5 {
   font-family: 'Fredoka';
   font-size: 3rem;
   color: whitesmoke;
-  font-weight: bolder; }
+  font-weight: bolder;
+  text-align: center; }
 
 .mapa {
   width: 200px;

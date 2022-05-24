@@ -2,7 +2,7 @@
     font-family: 'Lato';
     line-height: 1.5;
     text-align: center;
-    font-size: 4.5rem;;
+    font-size: 1.5rem;
 }
 
 .parrafos2 {
@@ -11,6 +11,7 @@
     }
 .text-dark{
     font-family: monospace;
+    text-align:center;
     @extend .parrafos2;
 }
 footer {
@@ -21,13 +22,10 @@ footer {
     }
 
 .fuenteGrande {
-        font-size: 10rem; 
-        text-align: center;
-        font-family: 'Signika';
+        font-size: 8rem; 
+        text-align:center;
+        font-family: 'Signika Negative';
         color: rgb(255, 205, 238);
-        animation-duration: 3s;
-        animation-name:aparecer;
-        animation-iteration-count: infinite;
 }
 h4{
     background-image: url(https://i.pinimg.com/564x/7d/e4/a6/7de4a678cb53cdf6e1fddea5e4f660f6.jpg);
