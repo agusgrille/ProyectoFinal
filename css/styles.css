@@ -217,6 +217,14 @@ p {
   overflow: hidden;
   color: #000000; }
 
+.testimonios {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  background-color: violet;
+  box-shadow: 10px 10px 5px #ddbcdf; }
+
 /*PRODUCTOS*/
 .cards-flex {
   display: flex;
@@ -272,8 +280,8 @@ img.rounded-circle {
   -webkit-backdrop-filter: blur(4.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 16px;
-  margin: auto; }
+  padding: 20px;
+  width: 50%; }
 
 .btn {
   min-width: 130px;
@@ -322,10 +330,11 @@ img.rounded-circle {
 .contacto {
   display: grid;
   grid-gap: 10px;
-  background-color: #fff;
+  background-color: linear-gradient(45deg, #8e5d7b, #a96e93);
+  box-shadow: 20px -20px 60px #865874, -20px 20px 60px #b6769e;
   border-radius: 50px;
-  background: linear-gradient(45deg, #8e5d7b, #a96e93);
-  box-shadow: 20px -20px 60px #865874, -20px 20px 60px #b6769e; }
+  background-image: url(https://i.pinimg.com/564x/39/47/81/39478172bc8723246e9f1282f12e3c58.jpg);
+  background-repeat: no-repeat; }
 
 .overlay {
   background: rgba(125, 28, 191, 0.25);
@@ -363,25 +372,32 @@ textarea {
   padding: 27px; }
 
 .card-text {
-  display: inline-block;
   font-family: 'Lato';
-  font-size: 2rem;
-  box-sizing: content-box;
-  width: 300px;
-  height: 100px;
-  padding: 30px; }
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: bolder; }
 
-.card-img-top {
-  width: 50%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-  transform: translate(180px, -5px);
-  overflow: auto; }
+.quien-soy img {
+  width: 80%;
+  padding: 0;
+  margin: auto; }
 
 .quien-soy {
   margin: auto;
-  width: 100px;
-  padding: 10px; }
+  width: 300px;
+  padding: 10px;
+  transform: translate(504px, 2px); }
+
+h5 {
+  font-family: 'Fredoka';
+  font-size: 3rem;
+  color: whitesmoke;
+  font-weight: bolder; }
+
+.mapa {
+  width: 200px;
+  height: 200px;
+  border: 2px black; }
 
 /*FAQ*/
 .card-deck {
