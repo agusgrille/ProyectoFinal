@@ -27,12 +27,23 @@ footer {
         font-family: 'Signika Negative';
         color: rgb(255, 205, 238);
 }
+@media only screen and (max-width: 768px) {
+    .fuenteGrande{
+        font-size: 5rem;
+    }
+}
 h4{
     background-image: url(https://i.pinimg.com/564x/7d/e4/a6/7de4a678cb53cdf6e1fddea5e4f660f6.jpg);
     text-align: center;
     font-family: 'Signika';
     font-size: 4rem;
     @extend .fuenteGrande;
+}
+@media only screen and (max-width: 768px){
+.text-dark{
+        text-align: center;
+        
+    }
 }
 .svg {
     width:30px;
